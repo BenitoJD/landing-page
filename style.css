@@ -1,0 +1,78 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: lawngreen;
+}
+.ul-1 {
+  list-style: none;
+  padding: 300px;
+}
+
+.benify,
+.ul-1,
+.list {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+.list {
+  position: relative;
+  left: 800px;
+}
+a {
+  text-decoration: none;
+}
+.email,
+section {
+  text-align: center;
+  padding: 5px;
+  font-family: cursive;
+}
+#email {
+  padding: 5px;
+  margin: 3px;
+  border-radius: 10px;
+}
+#button {
+  background-color: lawngreen;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 10px;
+  position: relative;
+}
+article {
+  font-family: cursive;
+  text-align: center;
+  padding: 15px;
+  margin: 3px;
+}
+.middle {
+  padding: 90px;
+}
+i {
+  color: lawngreen;
+}
+.container {
+  position: relative;
+  width: 1200px;
+  height: 300px;
+  margin: 240px auto;
+}
+
+.container .box {
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  background: lawngreen;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
